@@ -1,1 +1,19 @@
+#include <iostream>  
+using namespace std;  
 
+void move(int n, char A, char B, char C) {  
+    if (n==1){
+        cout<<"Di chuyen dia 1 tu "<<A<<" den "<<B<<endl;
+    }
+    else{
+        move(n-1,A,C,B);
+        cout<<"Di chuyen dia "<<n<<" tu "<<A<<" den "<<B<<endl;
+        move(n-1,C,B,A);
+    }
+}  
+
+int main() {  
+    int n = 3;  
+    move(n, 'A', 'B', 'C'); 
+    return 0;  
+}  
