@@ -1,1 +1,29 @@
-t
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void powerSum(int x, int n, int& counter, int itr=1, int sum=0) {
+    if (sum==x){
+        counter++;
+        return;
+    } else
+    if (sum>x){
+        return;
+    }
+    for (int i=itr; i<=pow(x,1.0/n) ;i++){
+        powerSum(x,n,counter,++itr,sum + pow(i,n));
+    }
+}
+//Thực hiện giống việc chạy các dòng for lồng nhau và cắt những nhánh thực hiện sai. 
+int main()
+{
+     int counter = 0;
+    int x, n;
+    cin >> x;
+    cin >> n;
+    powerSum(x, n, counter);
+    cout << counter << endl;
+    return 0;
+}
+
+
