@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void recursion(string& s){
+    if (s.length()==1){
+        
+        return;
+    }
+    int sum=0;
+    for (int i=0;i<s.length();i++){
+        sum+=(s[i]-'0');
+    }
+    s=to_string(sum);
+    recursion(s);
+}
+
+int main()
+{
+    string n;
+    int m;
+    cin>>n>>m;
+    recursion(n);
+    //cout<<n;
+    int x=(n[0]-'0')*m;
+    string ss=to_string(x);
+    recursion(ss);
+    cout<<ss;
+    return 0;
+}
