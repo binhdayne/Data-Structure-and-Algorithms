@@ -21,7 +21,7 @@ int main()
     int x, n;
     cin >> x;
     cin >> n;
-    powerSum(x, n, counter);
+    powerSum(x, n, counter,1,0);
     cout << counter << endl;
     return 0;
 }
