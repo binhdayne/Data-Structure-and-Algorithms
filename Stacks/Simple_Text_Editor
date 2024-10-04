@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+     vector<string> stck;
+    
+    string S, append;
+    int N, type, arg;
+    cin >> N;
+    for(int i = 0; i < N; i++) {
+        cin >> type;
+        switch(type) {
+            case(1):
+                stck.push_back(S);
+                cin >> append;
+                S.append(append);
+                break;
+            case(2):
+                stck.push_back(S);
+                cin >> arg;
+                S.erase(S.length() - arg, S.length());
+                break;
+            case(3):
+                cin >> arg;
+                cout << S[arg - 1] << endl;;
+                break;
+            case(4):
+                 S = stck.back();
+                 stck.pop_back();
+                 break;
+        }    
+                 
+                
+        }
+    return 0;
+}
