@@ -1,0 +1,29 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int n;
+    cin >> n;
+    vector<int> a;
+    for (int i = 0; i < n ; i++){
+        int x;
+        cin >> x;
+        if (x == 1) {
+            int y;
+            cin >> y;
+            a.push_back(y);
+        } else
+        if (x == 2) {
+            a.erase(a.begin());
+        } else
+        if (x == 3) {
+            cout << a[0] << endl;
+        }
+    }
+    return 0;
+}
