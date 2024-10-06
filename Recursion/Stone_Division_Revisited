@@ -1,0 +1,55 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+long long helper(long long n, vector<long long>& s, unordered_map<long long, long long>& memo) {  
+    
+    if (n == 0 || n == 1) {  
+        return 0;  
+    }  
+    if (memo.find(n) != memo.end()) {  
+        return memo[n];  
+    }  
+    long long maxMoves=0;  
+    for (long long x:s) {  
+        long long moves=0;  
+        if (n<=x) {  
+            break;  
+        }  
+        if (n!=x && n%x==0) {  
+            moves+=helper(x, s, memo) * (n/x) + 1;  
+        }  
+        maxMoves=max(maxMoves, moves);  
+    }  
+
+    memo[n]=maxMoves;  
+    return maxMoves;  
+}  
+
+long long stoneDivision(long long n, vector<long long>& s) {  
+    sort(s.begin(), s.end()); 
+    unordered_map<long long, long long> memo;   
+    return helper(n, s, memo);  
+}  
+int main()
+{
+    int n;
+    cin>>n;
+    for (int i=0;i<n;i++){
+        long long a, b;
+        cin>>a>>b;
+        vector<long long> s;
+       // vector<long long> memo(a);
+        for (int j=0;j<b;j++){
+            long long x;
+            cin>>x;
+            s.push_back(x);
+        }
+        // for (auto c:memo){
+        //     c==0;
+        // }
+        // sort (s.begin(),s.end());
+       cout<<stoneDivision(a, s)<<endl;;
+    }
+ return 0;   
+}
