@@ -1,4 +1,4 @@
-##C++ Problem Solutions for HackerRank and LeetCode##
+#C++ Problem Solutions for HackerRank and LeetCode#
 
 Welcome to the C++ Problem Solutions Repository! 🚀 This repository contains a collection of solutions to programming problems from HackerRank and LeetCode, implemented in C++.
 
