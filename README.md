@@ -1,91 +1,92 @@
 # C++ Problem Solutions for HackerRank and LeetCode
 
-Welcome to the C++ Problem Solutions Repository! 🚀 This repository contains a collection of solutions to programming problems from HackerRank and LeetCode, implemented in C++.
+🚀 Welcome to the **C++ Problem Solutions Repository**! This repository features a curated collection of C++ solutions for problems from **HackerRank** and **LeetCode**, tailored for anyone preparing for technical interviews, competitive programming, or enhancing their coding skills.
 
-Each solution showcases clean, efficient code that adheres to best practices while leveraging the power of modern C++ features (C++11 and above). This repository is perfect for anyone preparing for technical interviews, competitive programming, or simply improving their coding skills.
+---
 
-# 📝 Table of Contents
-* Introduction
-* Features
-* Categories
-* Problem List
-* How to Contribute
-* License
+## 📝 Table of Contents
+- [Introduction](#-introduction)  
+- [Features](#-features)  
+- [Categories](#-categories)  
+- [Problem List](#-problem-list)  
+- [How to Contribute](#-how-to-contribute)  
+- [License](#-license)  
 
-# 📖 Introduction
-Competitive programming platforms like HackerRank and LeetCode provide an excellent way to practice coding and problem-solving skills. This repository focuses on C++ solutions that are:
+---
 
-Well-Documented: Each solution includes comments to explain the logic.
-Optimized: Leveraging efficient algorithms and data structures.
-Tested: Verified against multiple test cases to ensure correctness.
+## 📖 Introduction
 
-# 🌟 Features
-Comprehensive C++ solutions for a wide range of problems.
-Organized by platform, difficulty, and topic.
-Includes alternative approaches and explanations where applicable.
-Updated regularly with new problems and solutions.
+Platforms like **HackerRank** and **LeetCode** provide excellent opportunities to sharpen your coding and problem-solving skills. This repository focuses on delivering **modern C++ solutions** (C++11 and above) that are:
 
-# 📂 Categories
-The problems in this repository are organized into the following categories:
+- **Well-Documented**: Each solution is clearly explained with comments.  
+- **Optimized**: Efficient algorithms and data structures are used.  
+- **Thoroughly Tested**: Verified with multiple test cases to ensure correctness.  
 
-HackerRank
+---
 
-Easy
-Medium
-Hard
-LeetCode
+## 🌟 Features
+- **Comprehensive Solutions**: Covers a wide range of problems.  
+- **Organized**: By platform, difficulty, and topic for easy navigation.  
+- **Alternative Approaches**: Includes different methods when applicable.  
+- **Regular Updates**: New problems and solutions are added frequently.  
 
-Easy
-Medium
-Hard
-Topics
+---
 
-Arrays and Strings
-Dynamic Programming
-Graphs and Trees
-Backtracking
-Greedy Algorithms
-Bit Manipulation
-Divide and Conquer
+## 📂 Categories
 
-# 🗂 Problem List
-HackerRank
-Easy
+### HackerRank  
+- **Easy**  
+  - Solve Me First  
+  - Simple Array Sum  
+  - Compare the Triplets  
+- **Medium**  
+  - 2D Array - DS  
+  - Left Rotation  
+- **Hard**  
+  - Array Manipulation  
 
-Problem 1: Solve Me First
-Problem 2: Simple Array Sum
-Problem 3: Compare the Triplets
-Medium
+### LeetCode  
+- **Easy**  
+  - Two Sum  
+  - Reverse Linked List  
+- **Medium**  
+  - Longest Substring Without Repeating Characters  
+  - Container With Most Water  
+- **Hard**  
+  - Regular Expression Matching  
+  - Edit Distance  
 
-Problem 1: 2D Array - DS
-Problem 2: Left Rotation
-Hard
+### Topics  
+- Arrays and Strings  
+- Dynamic Programming  
+- Graphs and Trees  
+- Backtracking  
+- Greedy Algorithms  
+- Bit Manipulation  
+- Divide and Conquer  
 
-Problem 1: Array Manipulation
-LeetCode
-Easy
+---
 
-Problem 1: Two Sum
-Problem 2: Reverse Linked List
-Medium
+## 🤝 How to Contribute
 
-Problem 1: Longest Substring Without Repeating Characters
-Problem 2: Container With Most Water
-Hard
+We welcome contributions from the community! Here's how you can get involved:
 
-Problem 1: Regular Expression Matching
-Problem 2: Edit Distance
-# 🤝 How to Contribute
-We welcome contributions from the community! Here’s how you can help:
+### 💡 Ways to Contribute:
+- **Submit a Pull Request**: Add new solutions for unsolved problems.  
+- **Improve Existing Solutions**: Refactor code, enhance comments, or suggest optimizations.  
+- **Report Issues**: Found a bug? Open an issue to let us know!  
 
-Submit a Pull Request: Add solutions for problems not yet included in the repository.
-Improve Existing Solutions: Refactor code, add comments, or suggest optimizations.
-Report Issues: Found a bug or an error? Let us know by opening an issue.
-Contribution Guidelines
-Use clean, readable C++ code.
-Include comments explaining the logic.
-Test your solution thoroughly before submitting.
-# 📜 License
-This repository is licensed under the MIT License. You are free to use, modify, and distribute the content as long as proper attribution is given.
+### 🛠 Contribution Guidelines:
+1. Use **clean, readable C++ code**.  
+2. Include **comments** explaining your logic.  
+3. Thoroughly **test your solution** before submission.  
 
-Happy Coding! 💻
+---
+
+## 📜 License
+
+This repository is licensed under the **MIT License**. Feel free to use, modify, and distribute the content with proper attribution.
+
+---
+
+Happy Coding! 💻  
